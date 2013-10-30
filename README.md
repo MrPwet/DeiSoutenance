@@ -15,10 +15,10 @@ Plan prévisionnel
 
 * Page de garde
     
-    Logo IUT
-    IUT de Belfort-Montbéliard 2013 - 2014
-    Noms
-    Gittip et le financement du logiciel libre
+    * Logo IUT
+    * IUT de Belfort-Montbéliard 2013 - 2014
+    * Noms
+    * Gittip et le financement du logiciel libre
 
 * Page blanche
 
