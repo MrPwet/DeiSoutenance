@@ -7,6 +7,7 @@ Ressources
 ==========
 
 [Site de Gittip](https://www.gittip.com/)
+
 [Boîte à idées](https://docs.google.com/document/d/1vvP1srKA6z7hEolr6tNPNs23CDHptOhrtIR7HqLphr0/edit?usp=sharing) 
 
 
