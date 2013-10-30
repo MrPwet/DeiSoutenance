@@ -13,32 +13,32 @@ Ressources
 Plan prévisionnel
 =================
 
-## Page de garde
+* Page de garde
     
     Logo IUT
     IUT de Belfort-Montbéliard 2013 - 2014
     Noms
     Gittip et le financement du logiciel libre
 
-## Page blanche
+* Page blanche
 
-## Sommaire
+* Sommaire
 
     A déterminer à la fin
 
-##Abrévitions
+* Abrévitions
 
     * FOSS...
     * VCS ("Logiciel de gestion de versions")
 
-## 1 Introduction (une page)
+* 1 Introduction (une page)
     * Accroche
     * Pourquoi ça nous concerne
     * pourquoi la problématique est intéressante
     * pourquoi en parler avec gittip en particulier
     * Introduction du plan : différentes problématiques
 
-## 2 Présentation de Gittip
+* 2 Présentation de Gittip
     * 2.1 Introduction
     * 2.2 Définition
     * 2.3 Open company
@@ -48,23 +48,23 @@ Plan prévisionnel
     * 2.5 ...
     * 2.n Conclusion
 
-## 3 La problématique du financement de l'open source
+* 3 La problématique du financement de l'open source
     * 3.1 Introduction
     * 3.2 ...
     * 3.n Conclusion
 
-## 4 La problématique de la légalité du financement en France
+* 4 La problématique de la légalité du financement en France
     * 4.1 Introduction
     * 4.2 ...
     * 4.n Conclusion
 
-## 5 Conclusion (générale)
-## Figures - illustrations
-## Glossaire
-## Bibliographie
-## Table des matières
+* 5 Conclusion (générale)
+* Figures - illustrations
+* Glossaire
+* Bibliographie
+* Table des matières
 
     A déterminer à la fin
 
-## Annexes éventuelles
+* Annexes éventuelles
 
