@@ -1,0 +1,74 @@
+\documentclass[12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{stmaryrd}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{fullpage}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{lipsum}
+\usepackage{hyperref}
+
+
+% Enlève les contours des liens
+\hypersetup{
+    linkbordercolor={1 1 1},
+    citebordercolor={1 1 1},
+    urlbordercolor={1 1 1}
+}
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+
+\textsc{\LARGE IUT Belfort Montbéliard}\\[1.5cm]
+
+\textsc{\Large Droits et Économie de l'Informatique}\\[0.5cm]
+\textsc{\Large Semestre 3}\\[5cm]
+
+
+% Title
+{ \huge \bfseries Gittip}\\[3cm]
+
+% Author and supervisor
+\begin{large}
+Jeremy \textsc{Autran}\\[0.3em]
+François-Xavier \textsc{Beligat}\\[0.3em]
+Benoit \textsc{Houdayer}\\[0.3em]
+Anthony \textsc{Ruhier}\\[0.3em]
+\end{large}
+
+\vfill
+
+% Bottom of the page
+{\large 12 Novembre 2013}
+
+\end{center}
+\end{titlepage}
+
+\renewcommand{\contentsname}{Sommaire}
+
+{
+\large{
+\tableofcontents
+}
+}
+
+
+%%%% Includes des chapitres :
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\include{chapters/chapter1}
+%\include{chapters/chapter2}
+
+\end{document}
