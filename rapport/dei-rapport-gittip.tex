@@ -5,17 +5,15 @@
 \usepackage[francais]{babel}
 \usepackage{multirow}
 \usepackage{array}
-\usepackage{stmaryrd}
 \usepackage{color}
-\usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{titlesec}
-\usepackage{titletoc}
-\usepackage{fullpage}
+\usepackage[a4paper]{geometry}
 \usepackage{eurosym}
 \usepackage{enumitem}
 \usepackage{lipsum}
 \usepackage{hyperref}
+\usepackage{afterpage}
+\usepackage{fullpage}
 
 
 % Enlève les contours des liens
@@ -28,7 +26,11 @@
 
 \begin{document}
 
+{
+\newgeometry{left=1cm,right=1cm,bottom=3cm,top=1cm}
 \begin{titlepage}
+
+\vbox to 70pt{\hfill\includegraphics[height=3cm]{images/logo-iut}}\
 \begin{center}
 
 \textsc{\LARGE IUT Belfort Montbéliard}\\[1.5cm]
@@ -38,7 +40,7 @@
 
 
 % Title
-{ \huge \bfseries Gittip}\\[3cm]
+{ \huge \bfseries Gittip et le financement du logiciel libre}\\[5cm]
 
 % Author and supervisor
 \begin{large}
@@ -55,8 +57,13 @@ Anthony \textsc{Ruhier}\\[0.3em]
 
 \end{center}
 \end{titlepage}
+}
 
 \renewcommand{\contentsname}{Sommaire}
+
+% Hack pour forcer le saut de page
+{\clearpage\mbox{}\thispagestyle{empty}\clearpage}
+\setcounter{page}{1}
 
 {
 \large{
