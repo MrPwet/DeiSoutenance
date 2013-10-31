@@ -13,6 +13,7 @@
 \usepackage{lipsum}
 \usepackage{hyperref}
 \usepackage{afterpage}
+\usepackage{shorttoc}
 \usepackage{fullpage}
 
 
@@ -59,15 +60,13 @@ Anthony \textsc{Ruhier}\\[0.3em]
 \end{titlepage}
 }
 
-\renewcommand{\contentsname}{Sommaire}
-
 % Hack pour forcer le saut de page
 {\clearpage\mbox{}\thispagestyle{empty}\clearpage}
 \setcounter{page}{1}
 
 {
 \large{
-\tableofcontents
+    \shorttableofcontents{Sommaire}{2}
 }
 }
 
@@ -75,7 +74,18 @@ Anthony \textsc{Ruhier}\\[0.3em]
 %%%% Includes des chapitres :
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
+\include{chapters/abreviations}
 \include{chapters/chapter1}
 %\include{chapters/chapter2}
+
+%%% Table des matières
+
+\addcontentsline{toc}{chapter}{Table des matières}
+\tableofcontents
+
+%%% Exemple pour les annexes
+%\appendix
+%\include{annexes/annexe1}
+%\include{annexes/annexe2}
 
 \end{document}
