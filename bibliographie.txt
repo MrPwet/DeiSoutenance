@@ -1,0 +1,7 @@
+##chapitre 2
+
+principe de flattr - http://flattr.com/howflattrworks
+
+licence mysql - http://www.mysql.fr/about/legal/licensing/index.html
+licence double - http://fr.wikipedia.org/wiki/Licence_double
+
