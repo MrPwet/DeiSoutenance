@@ -7,3 +7,4 @@ licence double - http://fr.wikipedia.org/wiki/Licence_double
 
 a propos de redhat - http://arstechnica.com/business/2012/02/how-red-hat-killed-its-core-productand-became-a-billion-dollar-business/
 
+PYWY : influencia.net, sciencemag.org, Smart pricing by Raju and Zhang
