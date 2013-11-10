@@ -1,3 +1,9 @@
+## Chapitre 1 : Présentation de gittip
+
+The second open company : https://medium.com/building-gittip/4cbab7ca1a47
+
+Valve, sans hiérarchie : http://blog.francetvinfo.fr/game-lover/2013/02/27/chez-lediteur-valve-on-travaille-sans-chef.html
+
 ##chapitre 2
 
 principe de flattr - http://flattr.com/howflattrworks
