@@ -15,6 +15,7 @@
 \usepackage{afterpage}
 \usepackage{shorttoc}
 \usepackage{textcomp}
+\usepackage{eurosym}
 \usepackage{fullpage}
 
 
@@ -28,6 +29,11 @@
     urlcolor=blue
 }
 
+% Redéfinis les marges des tableaux
+\let\oldtabular=\tabular
+\def\tabular{\small\oldtabular}
+\renewcommand{\arraystretch}{1.5}
+
 
 \begin{document}
 
@@ -35,7 +41,7 @@
 \newgeometry{left=1cm,right=1cm,bottom=3cm,top=1cm}
 \begin{titlepage}
 
-\vbox to 70pt{\hfill\includegraphics[height=3cm]{images/logo-iut}}\
+\vbox to 70pt{\hfill\includegraphics[height=3cm]{images/logo-iut.eps}}\
 \begin{center}
 
 \textsc{\LARGE IUT Belfort Montbéliard}\\[1.5cm]

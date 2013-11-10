@@ -1,3 +1,9 @@
+## Chapitre 1 : Présentation de gittip
+
+The second open company : https://medium.com/building-gittip/4cbab7ca1a47
+
+Valve, sans hiérarchie : http://blog.francetvinfo.fr/game-lover/2013/02/27/chez-lediteur-valve-on-travaille-sans-chef.html
+
 ##chapitre 2
 
 principe de flattr - http://flattr.com/howflattrworks
@@ -7,6 +13,7 @@ licence double - http://fr.wikipedia.org/wiki/Licence_double
 
 a propos de redhat - http://arstechnica.com/business/2012/02/how-red-hat-killed-its-core-productand-became-a-billion-dollar-business/
 
+
 les prix :
 https://www.gittip.com/about/
 http://flattr.com/support/faq
@@ -14,3 +21,5 @@ https://merchant.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=merchant%
 
 salaire moyen développeur :
 http://www.indeed.com/salary/q-Software-Engineer-l-United-States.html
+
+PYWY : influencia.net, sciencemag.org, Smart pricing by Raju and Zhang
