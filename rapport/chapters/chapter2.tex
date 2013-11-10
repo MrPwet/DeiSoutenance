@@ -1,8 +1,13 @@
 \chapter{La problématique de financement de l'open source}
 
 Beacoup de projets libres sont gratuits, mais cela ne signifie pas forcément que
-rien n'a été investi : de nombreux modèles de financement innovants permettent
-aux développeurs de se consacrer pleinement dans leur projet.
+rien n'a été investi : il existe de nombreux modèles de financement des projets
+opensource dont certains initiés par des sociétés comme RedHat ou Apple qui sont
+en croissance constante.\\
+Le logiciel libre peut donc être rentable à condition de savoir exploiter
+le modèle de financement adapté à l'ampleur du projet.
+
+\section{Quelques modèles alternatifs}
 
     \subsection{Les dons}
 
@@ -17,7 +22,9 @@ dons se font non plus directement au projet mais passent par un oganisme chargé
 de répartir équitablement un budget mensuel, défini par le donneur, entre tous
 les projets qu'il aura explicitement marqués dans le mois.
 \url{flattr.com}, par exemple, permet distruibuer le budget entre les projets
-marqués sur \url{github.com}.
+marqués sur \url{github.com}.\\
+Flattr, bien que compatible pour le financement de projets informatiques est
+surtout prévu pour récompenser les créateurs de contenu artistique.
 
     \subsection{Licence Double}
 
@@ -47,4 +54,71 @@ sur une même annonce pour augmenter la prime. Ainsi, plus une fonction intéres
 d'utilisateurs, plus la somme proposée pour son implémentation est élevée et
 donc susceptible d'intéresser un développeur.
 
+\section{Gittip confronté aux autres modèles}
+
+Gittip est un modèle proche de celui de Flattr à la différence que les
+donnations sont obligatoirement récurrentes et faites à un développeur ou une
+équipe plutot qu'un projet précis.
+
+\subsection{Les modèles proches}
+
 \paragraph{}
+Le caracère récurrent des dons assure plus de stabilité que les dons ponctuels
+via Flattr ou Paypal.
+
+\paragraph{}
+Les équipes financées grace a Gittip dépendent d'un grand nombre d'acteurs,
+ce qui leur permet de mesurer leur popularité et de ne pas dépendre d'un seul
+investisseur qui pourrait décider d'abandonner le projet.
+
+\paragraph{}
+Gittip est lui même financé via Gittip et non via le prélèvement sur les dons
+fait aux développeurs, le seuls prélèvements effectués servent à couvrir
+les opérations bancaires.
+
+\begin{figure}[h!]
+\caption{Comparatif des prélèvements pas plateforme}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+    \hline % Permet d'avoir une séparation via un trait
+    \textbf{Paypal} & \textbf{Gittip} & \textbf{Flattr} \\
+    \hline
+    2,2\% + 30\textcent & 2,9\% + 30\textcent & 10\% \\
+    \hline
+\end{tabular}
+\end{center}
+\end{figure}
+
+Dans le tableau ci-dessus, le prix des transactions pour utilisé Paypal est
+celui appliqué au bouton "Donate".
+
+\paragraph{}
+Gittip permet également de gérer efficacement son budget à l'interieur d'une
+équipe grâce au mécanisme précédemment décrit, ce que ne gèrent pas flattr ni
+Paypal.
+
+\subsection{Les autres modèles}
+
+Les modèles restants visent soit à lancer un projet, soit à financer des projets
+de grande ampleur, et donc nécessitant un investissement plus important.
+Actuellement, Chad Whitacre gagne 23300\$ par an alors que le salaire moyen de
+développeur est de 90000\$ par an. Dans l'état actuel des choses, Gittip n'est
+donc pas viable en tant que source principale de revenus. Toutefois, il est
+important de noter que la somme échangée par semaine augmente avec le nombre
+d'utilisateurs actifs depuis la création du site.
+
+\begin{figure}[h!]
+  \caption{Nombre d'utilisateurs en fonction du temps}
+  \centering
+    \includegraphics[width=16cm]{images/gittip_amount.eps}
+\end{figure}
+\begin{figure}[h!]
+  \caption{Somme échangée au sein de Gittip (en \$) en fonction du temps}
+  \centering
+    \includegraphics[width=16cm]{images/gittip_user.eps}
+\end{figure}
+
+parler de : pas de financement important (comparé a kickstarter pour initier un projet ou
+ le financement par une société tierce comme chez mozilla)
+
+
