@@ -13,7 +13,7 @@ projet.
 
 Le financement de projets par dons est très répandu.  Si ce modèle peut servir
 d'appoint aux développeurs, il n'est viable que dans très peu de cas.
-    
+
     \subsection{Donations par micropaiement}
 
 Le modèle du pay per like est une version plus organisée du modèle par dons.
@@ -24,7 +24,7 @@ entre tous les projets qu'il aura explicitement marqués dans le mois.
 marqués sur \url{github.com}.\\ Flattr, bien que compatible pour le financement
 de projets informatiques est surtout prévu pour récompenser les créateurs de
 contenu artistique.
-    
+
     \subsection{Le Crowdfunding}
 
 \paragraph{} En français, on l'appelle "financement collaboratif". Il s'agit
@@ -69,7 +69,7 @@ intéresse d'utilisateurs, plus la somme proposée pour son implémentation est
 élevée et donc susceptible d'intéresser un développeur.
 
     \subsection{Modèle Pay What You Want}
-    
+
     \paragraph{} Le modèle Pay What You Want consiste à proposer un produit à
     un utlisateur pour la somme qu'il estime nécessaire de payer. Il peut y
     avoir un seuil minimum à verser ou bien non. Dans le deuxième cas,
@@ -125,8 +125,88 @@ de son projet grâce à Gittip.
 D'autres modèles en revanche s'éloignent plus de cette problèmatique de
 financement. On peut notamment citer le modèle Pay What You Want qui est
 beaucoup plus adapté pour vendre le produit fini que pour aider à la conception
-de se dernier. De plus l'argent gagné lors de la vente d'un produit ne sert pas
+de ce dernier. De plus l'argent gagné lors de la vente d'un produit ne sert pas
 directement à un développeur de ce produit mais il va à la société qui l'a
 conçu. De se fait on s'éloigne complètement de Gittip car on s'éloigne de la
 notion de salaire. L'argent récolté par la société servira à maintenir le
 projet, en créer de nouveaux ou bien à payer les salariés.
+
+\paragraph{}
+Le modèle actuellement existant qui se rapproche le plus de Gittip est le site
+Flattr. On y retrouve effectivement la même notions de micro paiements à
+l'intention d'une personne ou d'une équipe. La différence majeur étant que les
+paiements sur Flattr ne sont pas réguliers. On peut choisir un montant à donner
+pour un mois et le répartir entre plusieurs personnes. De ce fait le montant
+reçu par une personne inscrite sur Flattr peut varier de façon importantes
+suivant les mois.
+\subsection{Couts}
+
+Si Gittip, grâce à son open company \emph{Gittip LLC}, ne souhaite pas faire de
+profit, d'autres services basent leur modèle financier sur une marge prélevée à
+chaque réussite d'un projet. Voici un tableau récapitulatif des marges fixées
+par plusieurs services connus :
+
+\begin{figure}[h!]
+    \center{
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \textbf{Paypal} & \textbf{Balanced Payments} & \textbf{Gittip} &
+        \textbf{Indiegogo} & \textbf{Kickstarter} & \textbf{Flattr}\\
+        \hline
+        $2,2\%{} + 30$\textcent & $2,9\% + 30$\textcent &  $2,9\% +
+        30$\textcent & $4\%{}$ & $5\%{}$ & 10\%{}\\
+        \hline
+    \end{tabular}}
+    \caption{Comparatif des prélèvements pas plateforme}
+\end{figure}
+
+Paypal, le service de micropaiments en ligne,  est beaucoup utilisé pour des
+dons spontanés ou les paiements sur internet, il est donc intéressant d'en
+savoir le cout. Balanced Payments, le système de micropaiments en ligne utilisé
+par Gittip, fonctionne sur un modèle similaire à celui de Paypal. Kickstarter
+et Indiegogo, les deux sites les plus connus pour du  crowdfunding,
+s'attribuent une marge relativement importante, surtout qu'il s'agit de grosses
+sommes échangées sur ces services : certains projets, comme le projet Pebble en
+2010 sur Kickstarter, peuvent monter jusqu'à 10 millions de dollars.
+
+\paragraph{}
+Dans le cas du crowdfunding, les marges ne sont prélevées que dans le cas où le
+projet réussi à être financé. Dans le cas de Kickstarter, si la somme fixée au
+départ n'est pas atteinte à la fin du temps imparti, l'équipe qui travaille sur
+le projet a alors le choix de redonner les fonds aux donneurs, ou alors de les
+garder en s'imposant d'une marge de 9\%{} fixée par le service.
+
+\paragraph{}
+Flattr, qui est, avec Gittip, le seul service facilitant les dons à la
+personne, s'attribue une marge qui est la plus importante de ce comparatif.
+Contrairement à Gittip il y a un vrai business model, et son fondateur n'en est
+d'ailleurs pas à son coup d'essai dans la création d'un service basé sur
+l'entraide. En effet, Peter Sunde est aussi l'un des fondateurs du site de
+téléchargement (en majorité illégal) The Pirate Bay, dont le business model
+était justifié par le fait que le site met à disposition la culture
+gratuitement pour tous, avec des revenus publicitaires estimés à 3 millions de
+dollars en 2009 (bien que Peter Sunde ait déclaré à cette même période que le
+site consommait beaucoup de ressources, et qu'il était en perte).
+
+\paragraph{}
+Gittip est donc bien plus respectable éthiquement, ne se basant sur aucun autre
+business model que celui du don (via Gittip). Les charges demandées le
+prouvent, puisqu'elles sont les même que celles définies par le système de
+micropaiements Balance Payments, service utilisé par Gittip pour toute
+transaction. Il se trouve dans la tranche basse de ce comparatif, avec des
+charges à peine supérieures à celles fixées par Paypal, alors que ce dernier
+sert uniquement à transférer de l'argent.
+
+\begin{figure}[h!]
+    \center{
+        \includegraphics[width=16cm]{images/gittip-charges.eps}}
+    \captionsource{Évolution des charges, en dollars, par semaine sur
+        \url{gittip.com}}{\url{https://www.gittip.com/about/charts.html}}
+\end{figure}
+
+Début novembre 2013, si l'on compte 2 000 utilisateurs actifs sur
+\url{gittip.com}, cela fait une moyenne de 3\${} de charges par utilisateur,
+sur 3,5\${} échangés en moyenne. Ces charges restent importantes, et peut être
+que Gittip devrait adopter un autre système de micropaiments en lignes qui
+définisse des charges moins importantes à l'avenir. Pour le moment, Balance
+Payments fait parti des systèmes open sources les moins couteux.
