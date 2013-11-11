@@ -18,6 +18,13 @@
 \usepackage{eurosym}
 \usepackage{fullpage}
 
+\newcommand*{\captionsource}[2]{%
+    \caption[{#1}]{%
+        #1%
+        \\\hspace{\linewidth}%
+        \textbf{Source : } #2%
+    }%
+}
 
 % Enlève les contours des liens
 \hypersetup{
