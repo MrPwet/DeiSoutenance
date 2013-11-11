@@ -13,7 +13,7 @@ projet.
 
 Le financement de projets par dons est très répandu.  Si ce modèle peut servir
 d'appoint aux développeurs, il n'est viable que dans très peu de cas.
-    
+
     \subsection{Donations par micropaiement}
 
 Le modèle du pay per like est une version plus organisée du modèle par dons.
@@ -24,7 +24,7 @@ entre tous les projets qu'il aura explicitement marqués dans le mois.
 marqués sur \url{github.com}.\\ Flattr, bien que compatible pour le financement
 de projets informatiques est surtout prévu pour récompenser les créateurs de
 contenu artistique.
-    
+
     \subsection{Le Crowdfunding}
 
 \paragraph{} En français, on l'appelle "financement collaboratif". Il s'agit
@@ -69,7 +69,7 @@ intéresse d'utilisateurs, plus la somme proposée pour son implémentation est
 élevée et donc susceptible d'intéresser un développeur.
 
     \subsection{Modèle Pay What You Want}
-    
+
     \paragraph{} Le modèle Pay What You Want consiste à proposer un produit à
     un utlisateur pour la somme qu'il estime nécessaire de payer. Il peut y
     avoir un seuil minimum à verser ou bien non. Dans le deuxième cas,
@@ -89,72 +89,82 @@ intéresse d'utilisateurs, plus la somme proposée pour son implémentation est
 
 \section{Gittip confronté aux autres modèles}
 
+Gittip se rapproche, au niveau du modèle, de Flattr, en permettant de donner à
+une personne en particulier, ou à une équipe. Ces deux modèles seront donc
+souvent comparés dans cette partie, mais des comparaisons sont possibles avec
+les autres modèles vus dans la partie précédente.
+
 \subsection{La stabilité}
 
 
-%A voir plus tard // Besoin de Trier%
+\subsection{Couts}
 
-Gittip est un modèle proche de celui de Flattr à la différence que les
-donnations sont obligatoirement récurrentes et faites à un développeur ou une
-équipe plutot qu'un projet précis.
+Si Gittip, grâce à son open company \emph{Gittip LLC}, ne souhaite pas faire de
+profit, d'autres services basent leur modèle financier sur une marge prélevée à
+chaque réussite d'un projet. Voici un tableau récapitulatif des marges fixées
+par plusieurs services connus :
 
-\subsection{Les modèles proches}
+\begin{figure}[h!]
+    \center{
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \textbf{Paypal} & \textbf{Balanced Payments} & \textbf{Gittip} &
+        \textbf{Indiegogo} & \textbf{Kickstarter} & \textbf{Flattr}\\
+        \hline
+        $2,2\%{} + 30$\textcent & $2,9\% + 30$\textcent &  $2,9\% +
+        30$\textcent & $4\%{}$ & $5\%{}$ & 10\%{}\\
+        \hline
+    \end{tabular}}
+    \caption{Comparatif des prélèvements pas plateforme}
+\end{figure}
 
-\paragraph{} Le caracère récurrent des dons assure plus de stabilité que les
-dons ponctuels via Flattr ou Paypal.
+Paypal, le service de micropaiments en ligne,  est beaucoup utilisé pour des
+dons spontanés ou les paiements sur internet, il est donc intéressant d'en
+savoir le cout. Balanced Payments, le système de micropaiments en ligne utilisé
+par Gittip, fonctionne sur un modèle similaire à celui de Paypal. Kickstarter
+et Indiegogo, les deux sites les plus connus pour du  crowdfunding,
+s'attribuent une marge relativement importante, surtout qu'il s'agit de grosses
+sommes échangées sur ces services : certains projets, comme le projet Pebble en
+2010 sur Kickstarter, peuvent monter jusqu'à 10 millions de dollars.
 
-\paragraph{} Les équipes financées grace a Gittip dépendent d'un grand nombre
-d'acteurs, ce qui leur permet de mesurer leur popularité et de ne pas dépendre
-d'un seul investisseur qui pourrait décider d'abandonner le projet.
+\paragraph{}
+Dans le cas du crowdfunding, les marges ne sont prélevées que dans le cas où le
+projet réussi à être financé. Dans le cas de Kickstarter, si la somme fixée au
+départ n'est pas atteinte à la fin du temps imparti, l'équipe qui travaille sur
+le projet a alors le choix de redonner les fonds aux donneurs, ou alors de les
+garder en s'imposant d'une marge de 9\%{} fixée par le service.
 
-\paragraph{} Gittip est lui même financé via Gittip et non via le prélèvement
-sur les dons fait aux développeurs, le seuls prélèvements effectués servent à
-couvrir les opérations bancaires.
+\paragraph{}
+Flattr, qui est, avec Gittip, le seul service facilitant les dons à la
+personne, s'attribue une marge qui est la plus importante de ce comparatif.
+Contrairement à Gittip il y a un vrai business model, et son fondateur n'en est
+d'ailleurs pas à son coup d'essai dans la création d'un service basé sur
+l'entraide. En effet, Peter Sunde est aussi l'un des fondateurs du site de
+téléchargement (en majorité illégal) The Pirate Bay, dont le business model
+était justifié par le fait que le site met à disposition la culture
+gratuitement pour tous, avec des revenus publicitaires estimés à 3 millions de
+dollars en 2009 (bien que Peter Sunde ait déclaré à cette même période que le
+site consommait beaucoup de ressources, et qu'il était en perte).
 
-\begin{figure}[h!] \captionsource{Comparatif des prélèvements par
-    plateforme}{\url{https://www.gittip.com/about/charts.html}} \begin{center}
-        \begin{tabular}{|c|c|c|} \hline % Permet d'avoir une séparation via un
-            trait \textbf{Paypal} & \textbf{Gittip} & \textbf{Flattr} \\ \hline
-            2,2\% + 30\textcent & 2,9\% + 30\textcent & 10\% \\ \hline
-        \end{tabular} \end{center} \end{figure}
+\paragraph{}
+Gittip est donc bien plus respectable éthiquement, ne se basant sur aucun autre
+business model que celui du don (via Gittip). Les charges demandées le
+prouvent, puisqu'elles sont les même que celles définies par le système de
+micropaiements Balance Payments, service utilisé par Gittip pour toute
+transaction. Il se trouve dans la tranche basse de ce comparatif, avec des
+charges à peine supérieures à celles fixées par Paypal, alors que ce dernier
+sert uniquement à transférer de l'argent.
 
-Dans le tableau ci-dessus, le prix des transactions pour utilisé Paypal est
-celui appliqué au bouton "Donate".
+\begin{figure}[h!]
+    \center{
+        \includegraphics[width=16cm]{images/gittip-charges.eps}}
+    \captionsource{Évolution des charges, en dollars, par semaine sur
+        \url{gittip.com}}{\url{https://www.gittip.com/about/charts.html}}
+\end{figure}
 
-
-\paragraph{} Gittip permet également de gérer efficacement son budget à
-l'interieur d'une équipe grâce au mécanisme précédemment décrit, ce que ne
-gèrent pas flattr ni Paypal.
-
-\subsection{Les autres modèles}
-
-Les modèles restants visent soit à lancer un projet, soit à financer des
-projets de grande ampleur, et donc nécessitant un investissement plus
-important.  Actuellement, Chad Whitacre gagne 23300\$ par an alors que le
-salaire moyen de développeur est de 90000\$ par an. Dans l'état actuel des
-choses, Gittip n'est donc pas viable en tant que source principale de revenus.
-Toutefois, il est important de noter que la somme échangée par semaine augmente
-avec le nombre d'utilisateurs actifs depuis la création du site.
-
-\begin{figure}[h!] \captionsource{Nombre d'utilisateurs en fonction du
-temps}{\url{https://www.gittip.com/about/charts.html}} \centering
-\includegraphics[width=16cm]{images/gittip_amount.eps} \end{figure}
-\begin{figure}[h!] \captionsource{Somme échangée au sein de Gittip (en \$) en
-    fonction du temps}{\url{https://www.gittip.com/about/charts.html}}
-\centering \includegraphics[width=16cm]{images/gittip_user.eps} \end{figure}
-
-\paragraph{} En effet, la différence essentielle entre des sites de financement
-tels que KickStarter et Gittip consiste à l'utilisation des fonds récoltés. Du
-côté de KickStarter, l'argent est versé par des personnes soutenant un projet
-et donc cet argent ne pourra être utilisé que pour mener à bien la création de
-ce projet. En revanche, pour Gittip, l'argent récolté ressemble davantage à un
-salaire que la personne recevra toute les semaines de façon prévisible et cet
-argent pourra être utilisé par la personne comme bon lui semble. L'intêret
-étant bien entendu de fournir une aide financière à la personne pour qu'elle
-puisse consacrer un maximum de temps à ses projets personnels.
-
-\paragraph{} parler de : pas de financement important (comparé a kickstarter
-pour initier un projet ou le financement par une société tierce comme chez
-mozilla)
-
-
+Début novembre 2013, si l'on compte 2 000 utilisateurs actifs sur
+\url{gittip.com}, cela fait une moyenne de 3\${} de charges par utilisateur,
+sur 3,5\${} échangés en moyenne. Ces charges restent importantes, et peut être
+que Gittip devrait adopter un autre système de micropaiments en lignes qui
+définisse des charges moins importantes à l'avenir. Pour le moment, Balance
+Payments fait parti des systèmes open sources les moins couteux.
