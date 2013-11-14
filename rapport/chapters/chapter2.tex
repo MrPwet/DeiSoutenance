@@ -3,7 +3,7 @@
 Beacoup de projets libres sont gratuits, mais cela ne signifie pas forcément
 que rien n'a été investi : il existe de nombreux modèles de financement des
 projets opensource dont certains initiés par des sociétés comme RedHat ou Apple
-qui sont en croissance constante.\\ Le logiciel libre peut donc être rentable à
+qui sont en croissance constante. Le logiciel libre peut donc être rentable à
 condition de savoir exploiter le modèle de financement adapté à l'ampleur du
 projet.
 
@@ -11,8 +11,25 @@ projet.
 
     \subsection{Les dons}
 
-Le financement de projets par dons est très répandu.  Si ce modèle peut servir
-d'appoint aux développeurs, il n'est viable que dans très peu de cas.
+Le financement de projets par dons est le premier type de financement du 
+logiciel libre a être apparu, et il est encore très répandu.
+Ce modèle très simple permet à un utilisateur convaincu de l'utilité du 
+produit de faire un don ponctuel, généralement par le biais de paypal.
+Si ce modèle peut servir d'appoint aux développeurs, il n'est viable que dans 
+très peu de cas.
+
+    \subsection{Modèle openBSD}
+
+Le modèle utilisé par le projet openBSD, un système d'exploitation de la 
+famille des BSD consiste à utiliser deux moyens de distribution : d'une part 
+une distribution gratuite en téléchargement sur internet, et d'autre part une 
+distribution sur support physique, accompagnée de goodies tels que des posters,
+des autocollants et un copie d'une chanson décrivant l'avancée du projet.
+Malgré cet apparence de vente, à l'analyse on se rend compte qu'il s'agit
+d'une forme avancée du modèle basé sur les dons : en effet, les acheteur du
+modèle physique, pour la plus grande majorité possèdent et utilisent déja le 
+produit. La raison qui les pousse à acheter le produit qu'ils possèdent déjà 
+ne vient pas d'un besoin mais d'un désir d'aider financièrement le projet.
 
     \subsection{Donations par micropaiement}
 
@@ -21,7 +38,7 @@ Les dons se font non plus directement au projet mais passent par un oganisme
 chargé de répartir équitablement un budget mensuel, défini par le donneur,
 entre tous les projets qu'il aura explicitement marqués dans le mois.
 \url{flattr.com}, par exemple, permet distribuer le budget entre les projets
-marqués sur \url{github.com}.\\ Flattr, bien que compatible pour le financement
+marqués sur \url{github.com}. Flattr, bien que compatible pour le financement
 de projets informatiques est surtout prévu pour récompenser les créateurs de
 contenu artistique.
 
@@ -32,11 +49,11 @@ d'un model de financement basé sur la collecte de don. Le leader sur le marché
 est le site Kickstarter. Il propose à un utilisateur ou un groupe d'utilisateur
 de mettre en ligne l'idée de son projet pour qu'il apparaisse sur le site. Les
 visiteurs peuvent alors consulter cette idée et choisir ou non d'investir de
-l'argent pou r la voir se développer. Les personnes ayant contribuer au
+l'argent pour la voir se développer. Les personnes ayant contribuer au
 développement sont très souvent récompensé lors de la fin du projet. Il peuvent
 par exemple rencontrer les créateurs du projet qu'ils ont soutenu, obtenir des
 goodies\footnote{\textbf{goodies :} produits dérivés faisant référence à un
-film, un jeu-vidéo...} ou même pouvoir voter pour l'implémentation de
+film, un jeu-vidéo\ldots} ou même pouvoir voter pour l'implémentation de
 fonctionnalités.  Ce mode de financement développe l'entraide et donne la
 capacité financière afin de mener à bien un projet prometteur.
 
@@ -49,24 +66,34 @@ est gratuite tandis qu'une utilisation profesionnelle est payante.
 
     \subsection{Modèle Redhat}
 
-Redhat distribue son produit gratuitement mais propose un support payant
-garantissant la stabilité de son produit. Ce modèle a été adopté par
-l'entreprise en 2003, qui depuis cette date est en constante croissance.  C'est
-un modèle similaire qui régit Canonical.
+Redhat distribue son système d'exploitation gratuitement mais propose des 
+services associés payants, notamment l'installation, la maintenance et le 
+support du logiciel dans le cas d'usage de l'entreprise contractante, 
+garantissant la stabilité de son produit.
+Ce modèle a été adopté par l'entreprise en 2003, qui depuis cette date est en 
+constante croissance.
+C'est un modèle similaire qui régit l'entreprise Canonical, éditrice du 
+système d'exploitation Ubuntu qui est aujourd'hui un des systèmes dérivés de 
+linux les plus utilisés.
 
     \subsection{Modèle Apple}
 
-Le système d'exploiation OSX d'apple est dérivé d'un système ouvert.\\ La
-stratégie d'apple pour son système d'exploitation OSX a consisté à changer la
-licence et apporter des modifications pour ensuite le vendre sur ses machines.
+Le système d'exploitation OSX d'apple utilise des logiciels et technologies 
+open source telles que des utilitaires et modules du projet freeBSD\@.
+Ceux ci sont ensuite vendus aux consommateurs sous leur license propriétaire. 
+Même si cette pratique est totallement légale elle ne contribue pas à apporter 
+un soutien financer aux développeurs originels des logiciels concernés.
 
-    \subsection{Modèle Bountysource}
+    \subsection{Modèle Bounty}
 
-\url{bountysource.com} est un site d'annonces de demande de code. Les
-utilisateurs peuvent demander des fonctionnalités et se regrouper à plusieurs
-sur une même annonce pour augmenter la prime. Ainsi, plus une fonction
-intéresse d'utilisateurs, plus la somme proposée pour son implémentation est
-élevée et donc susceptible d'intéresser un développeur.
+Il existe un grand nombre de sites, tel que \url{bountysource.com}, le 
+plus connu d'entre eux, permettant d'offrir des récompenses à quiconque 
+travaillera sur un projet pour le maintenir, le réparer ou y ajouter des 
+fonctionnalités
+Les utilisateurs peuvent se regrouper sur une même demande pour augmenter la 
+prime attribuée à la solution dont ils ont besoins.
+Ainsi, plus une fonction intéresse d'utilisateurs, plus la somme proposée pour 
+son implémentation est élevée et donc susceptible d'intéresser un développeur.
 
     \subsection{Modèle Pay What You Want}
 
@@ -203,8 +230,7 @@ sert uniquement à transférer de l'argent.
 \newpage
 
 \begin{figure}[!t]
-    \center{
-        \includegraphics[width=16cm]{images/gittip-charges.eps}}
+    \center{\includegraphics[width=16cm]{images/gittip-charges.eps}}
     \captionsource{Évolution des charges, en dollars, par semaine sur
         \url{gittip.com}}{\url{https://www.gittip.com/about/charts.html}}
 \end{figure}

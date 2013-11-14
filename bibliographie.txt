@@ -12,7 +12,12 @@ licence mysql - http://www.mysql.fr/about/legal/licensing/index.html
 licence double - http://fr.wikipedia.org/wiki/Licence_double
 
 a propos de redhat - http://arstechnica.com/business/2012/02/how-red-hat-killed-its-core-productand-became-a-billion-dollar-business/
+Statistiques d'utilisation de systèmes d'exploitation : 
+https://stats.wikimedia.org/archive/squid_reports/2013-09/SquidReportOperatingSystems.htm
+http://w3techs.com/technologies/details/os-linux/all/all
+http://w3techs.com/blog/entry/debian_ubuntu_extend_the_dominance_in_the_linux_web_server_market_at_the_expense_of_red_hat_centos
 
+Apple - https://www.apple.com/media/us/osx/2013/docs/OSX_Mavericks_Core_Technology_Overview.pdf
 
 les prix :
 https://www.gittip.com/about/
@@ -23,3 +28,11 @@ salaire moyen développeur :
 http://www.indeed.com/salary/q-Software-Engineer-l-United-States.html
 
 PYWY : influencia.net, sciencemag.org, Smart pricing by Raju and Zhang
+
+Dons aux États-unis :
+http://www.irs.gov/Businesses/Small-Businesses-%26-Self-Employed/Frequently-Asked-Questions-on-Gift-Taxes
+http://www.irs.gov/pub/irs-prior/p950--2011.pdf
+https://en.wikipedia.org/wiki/Commissioner_v._Duberstein
+
+Dons et impôts en Framce :
+http://legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006069577
