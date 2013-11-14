@@ -1,3 +1,9 @@
+## Intro
+Croissance de l'open source - http://dirkriehle.com/publications/2008-2/the-total-growth-of-open-source/
+Qui participe à l'open source ? - http://www.math.unipd.it/~bellio/FLOSS%20Final%20Report%20-%20Part%204%20-%20Survey%20of%20Developers.pdf
+Influence économique des open - standards http://www.intgovforum.org/Substantive_1st_IGF/openstandards-IGF.pdf
+Financement de l'open source - https://medium.com/open-source-life/d44a1953749c
+
 ## Chapitre 1 : Présentation de gittip
 
 The second open company : https://medium.com/building-gittip/4cbab7ca1a47
@@ -28,6 +34,8 @@ salaire moyen développeur :
 http://www.indeed.com/salary/q-Software-Engineer-l-United-States.html
 
 PYWY : influencia.net, sciencemag.org, Smart pricing by Raju and Zhang
+
+##chapitre 2
 
 Dons aux États-unis :
 http://www.irs.gov/Businesses/Small-Businesses-%26-Self-Employed/Frequently-Asked-Questions-on-Gift-Taxes
